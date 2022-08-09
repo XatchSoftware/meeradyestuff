@@ -22,6 +22,16 @@
       ga('create', 'UA-46276885-18', 'auto');
       ga('send', 'pageview');
     </script>
+    <script>
+        function validatePaste(el, e) {
+        var regex = /^[A-Za-z0-9]+$/gi;
+        var key = e.clipboardData.getData('text')
+        if (!regex.test(key)) {
+          e.preventDefault();
+          return false;
+          }
+        }
+    </script>
   </head>
 
   <body>
@@ -243,7 +253,7 @@
               <div class="block">
                         
               <div class="form-group">
-                  <textarea id="txtName" name="message" class="form-control" cols="55" rows="4" placeholder="Write your message here" required=""></textarea>
+                  <textarea id="txtName" name="message" class="form-control" onpaste="validatePaste(this, event);" cols="55" rows="4" placeholder="Write your message here" required=""></textarea>
               </div>
             
               <div class="form-group">
