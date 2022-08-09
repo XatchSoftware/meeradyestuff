@@ -243,7 +243,7 @@
               <div class="block">
                         
               <div class="form-group">
-                  <textarea name="message" class="form-control" cols="55" rows="4" placeholder="Write your message here" required=""></textarea>
+                  <textarea id="txtName" name="message" class="form-control" cols="55" rows="4" placeholder="Write your message here" required=""></textarea>
               </div>
             
               <div class="form-group">
