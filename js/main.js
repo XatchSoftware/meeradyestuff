@@ -1132,6 +1132,22 @@
       $('#map').css('position', 'absolute');
     }
   }
+  
+$(function () {
+    $("#txtName").keypress(function (e) {
+        var keyCode = e.keyCode || e.which;
 
+        $("#lblError").html("");
+
+        //Regex for Valid Characters i.e. Alphabets and Numbers.
+        var regex = /^[A-Za-z0-9\s]+$/;
+
+        //Validate TextBox value against the Regex.
+        var isValid = regex.test(String.fromCharCode(keyCode));
+        return isValid;
+    });
+});
+  
+  
   init();
 })(jQuery);
