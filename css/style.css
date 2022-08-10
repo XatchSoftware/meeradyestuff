@@ -1576,7 +1576,7 @@ section.colored-bg .progress-bar:not(.colored) {
   .map-side {
     padding: 0px;
     position: absolute;
-    top: 0px;
+    top: 40px;
     height: 100%;
     overflow: hidden;
     z-index: 100;
