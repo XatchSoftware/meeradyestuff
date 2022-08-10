@@ -243,7 +243,9 @@
         </div>
       </section>
       <br>
-     
+     <a href="https://api.whatsapp.com/send?phone=9998633336" class="float" target="_blank">
+        <i class="fa fa-whatsapp my-float"></i>
+      </a>
       <footer id="footer">
         <div class="footer-widgets">
           <div class="container">
