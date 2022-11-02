@@ -379,49 +379,7 @@
           </div>
         </div>
       </section> -->
-      <section class="pt-100 pb-100">
-        <div class="container">
-          <div class="row">
-            <div class="client-carousel carousel" data-slick="{&quot;slidesToShow&quot;: 6, &quot;dots&quot;: false}">
-              <div class="carousel-item">
-                <figure>
-                  <img src="images/client-1.png" alt="">
-                </figure>
-              </div>
-              <div class="carousel-item">
-                <figure>
-                  <img src="images/client-2.png" alt="">
-                </figure>
-              </div>
-              <div class="carousel-item">
-                <figure>
-                  <img src="images/client-3.png" alt="">
-                </figure>
-              </div>
-              <div class="carousel-item">
-                <figure>
-                  <img src="images/client-4.png" alt="">
-                </figure>
-              </div>
-              <div class="carousel-item">
-                <figure>
-                  <img src="images/client-5.png" alt="">
-                </figure>
-              </div>
-              <div class="carousel-item">
-                <figure>
-                  <img src="images/client-6.png" alt="">
-                </figure>
-              </div>
-              <div class="carousel-item">
-                <figure>
-                  <img src="images/client-7.png" alt="">
-                </figure>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
+      
       <footer id="footer">
         <div class="footer-widgets">
           <div class="container">
