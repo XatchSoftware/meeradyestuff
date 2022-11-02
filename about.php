@@ -256,7 +256,7 @@
           <div class="col-md-5 col-sm-7 col-md-offset-7 col-sm-offset-5">
             <div class="title">
               <h2>Why Us ?</h2>
-              <h4>Voluptatibus tenetur, impedit omnis quos.</h4>
+              
             </div>
             <div class="section-content">
               <div class="skill">
