@@ -141,7 +141,7 @@
         <div class="row-parallax-bg">
           <div class="parallax-wrapper">
             <div class="parallax-bg">
-              <img src="images/bg-image-4.jpg" alt="">
+              <img src="images/certificate-bg.jpg" alt="">
             </div>
           </div>
           <div class="parallax-overlay"></div>
